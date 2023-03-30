@@ -1,0 +1,6 @@
+{
+  "storage": {
+    "storageFolder": "storage",
+    "dataLayer": "dataStorageLayer.js"
+  }
+}

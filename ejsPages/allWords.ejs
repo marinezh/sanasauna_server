@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Words List</title>
+  </head>
+
+  <body>
+    <main>
+      <h2>All Word list</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Word</th>
+            <th>Translation</th>
+            <th>Keywords</th>
+            <th>Example</th>
+            <th>Level</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% result.forEach(word=> { %>
+          <tr>
+            <td><%= word.name %></td>
+            <td><%= word.translation %></td>
+            <td><%= word.keywords %></td>
+            <td><%= word.example %></td>
+            <td><%= word.level %></td>
+            <td><%= word.links %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+      <a href="/"><button>Menu</button></a>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+main,
+form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+input[readonly] {
+  background-color: grey;
+}
+
+input {
+  width: 5rem;
+
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+table,
+th,
+tr {
+  border: solid black 1px;
+  padding: 0.5em;
+}
+
+thead {
+  background-color: #a09eff;
+}
+
+button {
+  font-family: sans-serif;
+  width: 13em;
+  height: 2em;
+}
+
+p.info {
+  border: solid #bce8d3 2px;
+  padding: 1em;
+}
+
+h1.error {
+  color: grey;
+}
+
+
+
+form div p {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+button{
+    margin-top: 1rem;
+}

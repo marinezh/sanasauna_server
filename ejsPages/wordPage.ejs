@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Query result</title>
+</head>
+
+<body>
+    <main>
+        <h1><%= result.name %></h1>
+        <p><span class="legend"> Word:</span><%= result.name %></p>
+        <p> Translation: <%= result.translation %>
+        <p> Keywords: <%= result.keywords %></p>
+        <p> Example: <%= result.example %></p>
+        <p> Level: <%= result.level %></p>
+        <p> Links: <%= result.links %></p>
+        <a href="/"><button>Menu</button> </a>
+    </main>
+</body>
+
+</html>
